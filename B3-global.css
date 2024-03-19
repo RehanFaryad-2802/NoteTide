@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    max-width: var(--container);
+}
+
+:root {
+    --family: sans-serif;
+    --fl1: 0 0 10%;
+    --fl05: 0 0 5%;
+    --fl16: 0 0 16.67%;
+    --fl2: 0 0 20%;
+    --fl25: 0 0 25%;
+    --fl3: 0 0 30%;
+    --fl33: 0 0 33.3334%;
+    --fl4: 0 0 40%;
+    --fl5: 0 0 50%;
+    --fl6: 0 0 60%;
+    --fl7: 0 0 70%;
+    --fl75: 0 0 75%;
+    --fl8: 0 0 80%;
+    --fl9: 0 0 90%;
+    --fl10: 0 0 100%;
+    --fl11: 1 0 0;
+    --mc: #020087;
+    --hc: #000a52;
+    --mbg: var(--mc);
+    --container: 1200px;
+    --hmc: #000947;
+    --hms: 2.5rem;
+    --hmic: #07004a;
+    --hmis: 1.8rem;
+    --pmc: #080038;
+    --pms: 1.09rem;
+    --pmic: #080038;
+    --pmis: .85rem;
+
+    --c1: #ff5757;
+    --c2: red;
+    --c3: red;
+    --c4: red;
+    --c5: red;
+}
+
+.c {
+    text-align: center;
+}
+
+.f {
+    display: flex;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jce {
+    justify-content: end;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcse {
+    justify-content: space-around;
+}
+
+.aic {
+    align-items: center;
+}
+.dfa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    padding: 10px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.m {
+    margin: 10px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.f1 {
+    flex: var(--fl1)
+}
+
+.f16 {
+    flex: var(--fl16)
+}
+
+.f2 {
+    flex: var(--fl2)
+}
+
+.f3 {
+    flex: var(--fl3)
+}
+
+.f33 {
+    flex: var(--fl33)
+}
+
+.f4 {
+    flex: var(--fl4)
+}
+
+.f5 {
+    flex: var(--fl5)
+}
+
+.f6 {
+    flex: var(--fl6)
+}
+
+.f7 {
+    flex: var(--fl7)
+}
+
+.f75 {
+    flex: var(--fl75)
+}
+
+.f8 {
+    flex: var(--fl8)
+}
+
+.f9 {
+    flex: var(--fl9)
+}
+
+.f10 {
+    flex: var(--fl10)
+}
+
+.fa {
+    flex: var(--fl11)
+}
+
+.f05 {
+    flex: var(--fl05);
+}
+.cp{
+    cursor: pointer;
+}
+img[src] {
+    width: 100%;
+}
+
+.hm {
+    font-size: var(--hms);
+    color: var(--hmc);
+}
+
+.pm {
+    font-size: var(--pms);
+    color: var(--pmc);
+}
+
+.pmi {
+    font-size: var(--pmis);
+    color: var(--pmic);
+}
+
+.hmi {
+    font-size: var(--hmis);
+    color: var(--hmic);
+}
+
+.mbg {
+    background-color: var(--mc);
+}
+
+.hc {
+    color: var(--hc);
+}
+
+.hbg {
+    background-color: var(--hc);
+}
+.mc{
+    color: var(--mc);
+}
+
+
+.c1{
+    color: var(--c1);
+}
+.c2{
+    color: var(--c2);
+}
+.c3{
+    color: var(--c3);
+}
+.c4{
+    color: var(--c4);
+}
+.c5{
+    color: var(--c5);
+}
+
+.bg1{
+    background-color: var(--c1);
+}
+.bg2{
+    background-color: var(--c2);
+}
+.bg3{
+    background-color: var(--c3);
+}
+.bg4{
+    background-color: var(--c4);
+}
+.bg5{
+    background-color: var(--c5);
+}
+.m0a{
+    margin: 0 auto;
+}
+.b{
+    border: 2px solid black;
+}

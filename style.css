@@ -1,0 +1,90 @@
+.more ol {
+  column-gap: 20px;
+}
+.logo {
+  flex: 0 0 5%;
+}
+ol li a {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+}
+.logo img {
+  filter: drop-shadow(0 0 0.75rem white);
+}
+
+.button-3 {
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #ce0a0a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.button-3:hover {
+  background-color: #f1f1f1;
+}
+
+/* Notes */
+textarea {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+[class^="bg"] {
+  width: 10px;
+  height: 10px;
+  border-radius: 5rem;
+  border: 1px solid #000000;
+}
+.bg1 {
+  background-color: #e5ff00;
+}
+.bg2 {
+  background-color: #77ff00;
+}
+.bg3 {
+  background-color: #05ebd7;
+}
+.bg4 {
+  background-color: #ffae00;
+}
+.note .contant {
+  height: 300px;
+}
+.note {
+  background-color: red;
+  border-radius: 10px;
+}
+.all_notes{
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.back {
+  column-gap: 10px;
+}
+.note .header{
+    border-bottom: 1px solid black;
+}
+.f25{
+    flex: 0 0 calc(25% - 10px);
+}
