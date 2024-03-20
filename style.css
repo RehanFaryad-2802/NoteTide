@@ -39,7 +39,9 @@ ol li a {
 .button-3:hover {
   background-color: #f1f1f1;
 }
-
+.back{
+ filter: brightness(10);
+}
 /* Notes */
 textarea {
   max-width: 100%;
@@ -47,20 +49,26 @@ textarea {
   min-width: 100%;
   min-height: 100%;
   border: none;
+  border-top: 1px solid black;
   outline: none;
   padding: 10px;
+  resize: none;
+  background-color: red;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 [class^="bg"] {
   width: 10px;
   height: 10px;
   border-radius: 5rem;
   border: 1px solid #000000;
+  cursor: pointer;
 }
 .bg1 {
   background-color: #e5ff00;
 }
 .bg2 {
-  background-color: #77ff00;
+  background-color: #0c6b00;
 }
 .bg3 {
   background-color: #05ebd7;
@@ -69,15 +77,22 @@ textarea {
   background-color: #ffae00;
 }
 .note .contant {
-  height: 300px;
+  min-height: 100px;
+  max-width: 298px;
 }
 .note {
-  background-color: red;
   border-radius: 10px;
+  background-color: red;
 }
 .all_notes{
-    flex-wrap: wrap;
-    padding: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  align-items: start;
+}
+.note .header{
+  box-shadow: inset 0px 0px 100px 10px #34343496;
+  border-radius: 5px 5px 0 0;
+  background-color: red;
 }
 .back {
   column-gap: 10px;
@@ -87,4 +102,58 @@ textarea {
 }
 .f25{
     flex: 0 0 calc(25% - 10px);
+}
+.aTag{
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+.links input{
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 3px;
+  width: 135px;
+}
+.links{
+  display: none;
+  position: relative;
+}
+.links p{
+  position: absolute;
+  right: 0;
+  top: 0%;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 4rem 0 0 4rem;
+  color: #ffffff;
+  padding: 2px;
+}
+.hide{
+  display: block !important;
+}
+.a{
+  display: block;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.under{
+  text-decoration: underline;
+}
+
+@media (max-width: 670px) {
+  .logo{
+    display: none;
+  }
+
+  .header.b .container .f3 {
+    flex: 0 0 100%;
+  }
+  .header.b .container .f3 .btn{
+    text-align: center;
+  }
+}
+a[href]{
+  color: #000000;
 }
